@@ -1,0 +1,226 @@
+/* 01 navbar css */
+           
+           /* .header {
+               position: absolute; */
+               /* width: 100%;
+               top: 2rem;
+               left: 0;
+               z-index: 1; */
+           }
+            .navbar {
+                position: absolute;
+               position: fixed;
+               top: -0.4rem;
+               left: 0;
+               right: 0;
+               width: 100%;
+               max-width: 1320px;
+               margin: auto;
+               z-index: 999;
+               /* box-shadow: .5084rem 1.1419rem 2.5rem 0 rgb(0 0 0 / 8%); */
+               transition: 0.3s ease-in-out;
+           }
+
+            /* Features CSS */
+           
+            .feature_section .features-box {
+                background-color: transparent;
+                border: 0.15rem solid var(--light-color);
+                padding: 8rem 0;
+                 transition: all 0.3s;
+            }
+            
+            .feature_section .features-box .features-icon-border {
+                background-color: transparent;
+                border-radius: 50%;
+                border: 0.2rem solid var(--light-color);
+                padding: 1.3rem;
+                display: inline-block;
+            }
+            
+            .feature_section .features-box .features-icon {
+                height: 1rem;
+                width:  3rem;
+                background-color: var(--light-color);
+                margin: auto;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            
+            .feature_section .features-box .features-icon img {
+                width: 9rem
+            }
+            
+            /* Media Query 1170px */
+@media (max-width:1199.5px) {
+    /* paralex */
+    .parallax:not(.parallax-main){
+        background-size: 50%;
+    }
+    .main-wrapper .black-card{
+        width: 100%;
+    }
+    /* process */
+    .process-wrapper .process-content {
+        padding: 4rem 1rem;
+    }
+
+   
+
+
+}
+
+/* Media Query 991px */
+@media (max-width:991.5px) {
+
+    /* 01 Navbar CSS */
+    .header .navbar-collapse {
+        padding: 2rem;
+    }
+
+    .header .navbar-nav .nav-link {
+        padding: 0.6rem 0.5rem;
+        margin-bottom: 2rem;
+
+    }
+
+    /* card */
+    .main-wrapper .black-card {
+        left: -226px;
+    }    
+    .main-wrapper .black-card.right {
+       right: -226px;
+    }    
+
+    /* Parallax CSS */
+    .parallax-main{
+        background-size:cover;
+    }
+
+    /* contact page */
+    .contact .get-in-touch .card {
+        min-height: 350px;
+    }
+
+
+}
+
+/* Media Query 767px */
+@media (max-width:767.5px) {
+
+    /* General CSS */
+    body,
+    html {
+        font-size: 8px;
+    }
+     
+    /* card */
+    .main-wrapper .black-card{
+        left: 5%;
+        width: 90%;
+    }
+    .main-wrapper .black-card.right{
+        left: 5%;
+        width: 90%;
+    }
+
+    /* Parallax CSS */ 
+    .parallax:not(.main-parallax) {
+        background-size:cover;
+    }
+    .parallax-1{
+        background-size: cover;
+    }
+
+   
+}
+
+/* Media Query 590px */
+@media (max-width:590px) {
+
+    /* General CSS */
+    body,
+    html {
+        font-size: 7px;
+    }
+    .parallax.img2,
+    .parallax.img3,
+    .parallax.img4,
+    .parallax.img5{
+        height: 408px;
+    }
+    .main-wrapper {
+        margin-top: 35vh;
+    }
+
+    /* footer  */
+
+    .link-widget a img{
+        width: 30px;
+        height: 30px;
+    }
+
+   
+}
+
+/* Media Query 380px */
+@media (max-width:390.4px) {
+    h1{
+        font-size: 27px;
+    }
+    h2{
+        font-size: 25px;
+    }
+}
+
+            
+/* Footer CSS */
+
+.footer_wrapper {
+    background-color: var(--black-color);
+    padding-bottom: 0rem;
+}
+
+.footer_wrapper .footer-logo img {
+    width: 25rem;
+    height: auto;
+    object-fit: cover;
+}
+
+.footer_wrapper h5 {
+    color: var(--white-color);
+    margin-bottom: 2rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 2rem;
+}
+
+.footer_wrapper h5 a {
+    color: var(--white-color);
+}
+
+.footer_wrapper ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+
+.footer_wrapper ul li {
+    margin-right: 1.5rem;
+}
+
+.footer_wrapper .copyright-section p {
+    margin: 0;
+    padding: 3rem 0;
+    text-align: center;
+}
+  /* Product cards */
+  #prod-container{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
